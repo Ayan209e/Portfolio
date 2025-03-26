@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  /* *{
-    border: 1px solid red;
-  } */
-
   ::-moz-selection {
     background: #d1d1c7;
   }
@@ -88,7 +84,7 @@
   }
 }
 
-.heroName{
+.heroName {
   font-size: 35px;
   font-weight: 500;
   font-family: "GeneralSans-Variable";

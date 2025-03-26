@@ -35,7 +35,7 @@ export default function About() {
   return (
     // Try using max width to contain the size of the container
     <section ref={aboutSection} aria-label="about me">
-      <Heading title="about me"/>
+      <Heading title="about me" />
       <div className="mt-10 flex flex-col items-start gap-8 md:flex-row lg:gap-10 ">
         <div className="top-28 overflow-hidden rounded-md md:sticky md:w-1/2">
           <img
@@ -48,23 +48,29 @@ export default function About() {
             alt="portrait image of Huy standing in front of a tree and foliage"
           />
         </div>
-        <div className="top-20 sm:sticky md:top-28 lg:top-32 md:w-1/2">
+        <div className="top-20 sm:sticky md:top-28 md:w-1/2 lg:top-32">
           <div className="w-full space-y-4 2xl:space-y-10">
             <h3
               ref={heading}
-              className="translate-y-10 text-heading-3 2xl:text-7xl font-semibold leading-tight opacity-0"
+              className="translate-y-10 text-heading-3 font-semibold leading-tight opacity-0 2xl:text-7xl"
             >
-              A brief intro, who am I?
+              Who Am I?
             </h3>
-            <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am a frontend web developer and UI/UX designer based in
-              Gurgaon, India.
+            <p
+              ref={body}
+              className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
+            >
+              I’m a frontend web developer based in Gurgaon, currently working
+              at MAF Carrefour.
+              <br></br>
+              <br></br>I specialize in building high-performance, interactive
+              websites with a strong focus on smooth animations and engaging
+              user experiences.
               <br></br>
               <br></br>
-              I am currently working for MAF Carrefour as frontend web developer.
-              <br></br>
-              <br></br>
-              When I am not working, I design and develop cool and animated websites and share them with others for inspiration and help them learn.
+              When I’m not working, I love designing and developing interactive,
+              animated websites and sharing them to inspire and help others
+              learn.
             </p>
           </div>
         </div>
