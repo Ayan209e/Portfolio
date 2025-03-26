@@ -8,7 +8,10 @@ import Heading from "../components/ui/Heading";
 
 export const Address = () => {
   return (
-    <section id="works" className="nav-change overflow-hidden py-[10%]">
+    <section
+      id="works"
+      className="nav-change overflow-hidden py-[25%] md:py-[10%]"
+    >
       <Heading title="Address Revamp" />
       <div className="mb-10 mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
