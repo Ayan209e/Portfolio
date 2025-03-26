@@ -43,8 +43,6 @@ const App = () => {
     });
   }, []);
 
-  
-
   return (
     <div className="bg-secondary-100">
       <NavBar sectionRefs={sectionRefs.current} />{" "}
@@ -66,7 +64,7 @@ const App = () => {
 
         <Contact />
       </main>
-      
+
       <Footer />
     </div>
   );
