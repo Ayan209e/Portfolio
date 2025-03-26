@@ -1,8 +1,9 @@
-import ibgroup from "/src/assets/images/ib-group-desktop.webp";
-import memento from "/src/assets/images/memento-desktop.webp";
-import acc from "/src/assets/images/acc-square.webp";
-import daddy from "/src/assets/images/godaddy-desktop.webp";
-import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
+import twoGood from "/src/assets/images/two-good-main.png";
+import miranda from "/src/assets/images/miranda.png";
+import imageSearchEngine from "/src/assets/images/image-search-engine.png";
+import profile from "/src/assets/images/profile-main.png";
+import address from "/src/assets/images/address-list.png";
+import signup from "/src/assets/images/signup.png";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -11,68 +12,86 @@ export default function Works({ forwardedRef }) {
     <section
       ref={forwardedRef}
       id="works"
-      className="nav-change overflow-hidden my-[10%]"
+      className="nav-change my-[10%] overflow-hidden"
     >
-     <Heading title="Projects" />
-      <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
+      <Heading title="Projects" />
+      <div className="mt-10 mb-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://musical-stroopwafel-1c2327.netlify.app/landing.html"
-            img={ibgroup}
-            alt="IBGroup vietnam website mockup"
-            name="ibgroup vietnam website"
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript • Figma"
-
+            link="https://two-good-two.vercel.app/"
+            img={twoGood}
+            alt="two good project mockup"
+            name="Two Good Co."
+            type="Rebuild • Animated UI • Smooth UX • Performance • Redux"
+            year="2025"
+            tools="React.js • GSAP • Redux"
           />
         </div>
+
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://mementostudio.netlify.app/"
-            img={memento}
-            alt="memento landing page mockup"
-            name="memento studio landing page"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            link="https://ayan209e.github.io/Miranda"
+            img={miranda}
+            alt="miranda landing page mockup"
+            name="Niccolò Miranda"
+            type="Retro UI • Smooth Animations • Interactive Scroll • Performance"
+            year="2024"
+            tools="HTML • CSS • JavaScript"
           />
         </div>
-        <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
+
+        {/* Project #3 */}
+        <div className="col-span-1 h-fit md:col-span-5">
           <Projects
-            link="https://realbusinessaccountants.netlify.app"
-            img={acc}
-            alt="real business accountant project mockup"
-            name="real business accountants"
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript • Figma"
+            link="/projects/address-revamp"
+            img={address}
+            alt="address revamp page mockup"
+            name="Address Revamp"
+            type="Carrefour • Frontend Development"
+            year="2024"
+            tools="Next.js • TailwindCSS • TypeScript"
           />
         </div>
+
+        {/* Project #4 */}
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://godaddyuiclone.netlify.app"
-            img={daddy}
-            alt="godaddy clone page mockup"
-            name="GODADDY LANDING PAGE CLONE"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            link="/projects/profile-revamp"
+            img={profile}
+            alt="profile revamp page mockup"
+            name="Profile Revamp"
+            type="Carrefour • Frontend Development"
+            year="2025"
+            tools="Next.js • TailwindCSS • TypeScript"
           />
         </div>
+
+        {/* Project #5 */}
         <div className="col-span-1 h-fit md:col-span-4">
-        <Projects
-            link="https://sunnysidechallenge.netlify.app"
-            img={sunnyside}
-            alt="sunnyside project mockup"
-            name="SUNNYSIDE LANDING PAGE"
-            type="Frontend Development"
-            year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
+          <Projects
+            link="https://www.carrefouruae.com/login/register"
+            img={signup}
+            alt="signup revamp mockup"
+            name="Sign Up Revamp"
+            type="Carrefour • Frontend Development"
+            year="2024"
+            tools="Next.js • TypeScript • Redux"
           />
-         
+        </div>
+
+        {/* Project #3 */}
+        <div className="col-span-1 h-fit pt-0 md:col-span-12 md:pt-20">
+          <Projects
+            link="https://ayan209e.github.io/Image-Search-Engine/"
+            img={imageSearchEngine}
+            alt="image search engine project mockup"
+            name="Image Search Engine"
+            type="Web Design • Frontend Development"
+            year="2023"
+            tools="HTML • CSS • JavaScript"
+          />
         </div>
       </div>
     </section>
