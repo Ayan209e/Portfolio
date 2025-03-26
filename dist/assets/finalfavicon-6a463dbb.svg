@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <path id="path-2" d="M 11.749 10.735 L 23.331 21.228" style="fill: none;"/>
+    <path id="path-3" d="M 19.025257828844143 19.475557335251047 L 37.52513644150949 37.284631669964625" style="fill: none;"/>
+    <style bx:fonts="Averia Libre">@import url(https://fonts.googleapis.com/css2?family=Averia+Libre%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C700%3B1%2C300%3B1%2C400%3B1%2C700&amp;display=swap);</style>
+  </defs>
+  <rect width="31.936" height="31.964" rx="16" fill="#EDEDE9" style="" y="-0.015" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -2.220446049250313e-16, -2.220446049250313e-16)"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M 11.913 8.351 L 7.859 8.351 L 7.859 16.467 L 11.913 16.467 C 9.674 16.467 7.859 18.283 7.859 20.525 L 7.859 24.582 L 15.968 24.582 L 15.968 20.525 C 15.968 22.766 17.783 24.582 20.022 24.582 L 24.076 24.582 L 24.076 16.467 L 20.022 16.467 C 22.261 16.467 24.076 14.65 24.076 12.409 L 24.076 8.351 L 15.968 8.351 L 15.968 12.409 C 15.968 10.167 14.153 8.351 11.913 8.351 Z M 15.968 16.467 L 11.913 16.467 C 14.153 16.467 15.968 18.283 15.968 20.525 L 15.968 16.467 Z M 15.968 16.467 L 15.968 12.409 C 15.968 14.65 17.783 16.467 20.022 16.467 L 15.968 16.467 Z" fill="black" style="" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -2.220446049250313e-16, -2.220446049250313e-16)"/>
+  <text style="fill: rgb(237, 237, 234); font-family: 'Averia Libre'; font-size: 20.0269px; line-height: 32.0431px; paint-order: stroke; stroke: rgb(237, 237, 234); stroke-dasharray: 4px; stroke-linecap: square; stroke-opacity: 0.66; stroke-width: 0px; white-space: pre; transform-origin: 17.0822px 5.4855px;" transform="matrix(0.295981019735, -0.26683306694, 0.272862017155, 0.302670061588, -7.262530808674, 6.799892605255)"><textPath xlink:href="#path-2">k</textPath></text>
+  <text style="fill: rgb(237, 237, 234); font-family: 'Averia Libre'; white-space: pre; transform-origin: 27.0061px 19.7262px;" transform="matrix(0.477022051811, -0.435445010662, 0.495497018099, 0.51584392786, -5.217410215534, -0.278113808814)"><textPath startOffset="0" xlink:href="#path-3">a </textPath></text>
+</svg>
