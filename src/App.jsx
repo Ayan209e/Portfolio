@@ -2,17 +2,11 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
 import NavBar from "./components/ui/NavBar";
-import Hero from "./components/homepage/Hero";
-import Role from "./components/homepage/Role";
-import About from "./components/homepage/About";
-import Services from "./components/homepage/Services";
-import Works from "./components/homepage/Works";
 import Contact from "./components/homepage/Contact";
 import Footer from "./components/ui/Footer";
-import Experience from "./components/homepage/experience";
+import AppRoutes from "../routes.jsx";
 
 const App = () => {
- 
   gsap.registerPlugin(ScrollTrigger);
 
   const sectionRefs = useRef([]); // Creating a sectionRefs array
@@ -36,9 +30,8 @@ const App = () => {
             duration: 1,
           }),
           toggleActions: "play none none none",
-
         });
-        ScrollTrigger.refresh()
+        ScrollTrigger.refresh();
       });
     });
   }, []);
@@ -47,20 +40,10 @@ const App = () => {
     <div className="bg-secondary-100">
       <NavBar sectionRefs={sectionRefs.current} />{" "}
       {/* passing sectionRefs props to give access to Navbar, Navbar can then access the props which have access to the array of sectionRef and loop over it */}
-
-      <Hero />
+      
 
       <main className="px-5 md:px-10 xl:px-20 2xl:px-28">
-        <Role forwardedRef={(el) => (sectionRefs.current[0] = el)} />{" "}
-        {/* forwardedRef props to pass into the child component to access the ref, then this will go into the useRef array  */}
-
-        <About />
-
-        <Services />
-
-        <Experience/>
-
-        <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} />
+        <AppRoutes sectionRefs={sectionRefs} />
 
         <Contact />
       </main>

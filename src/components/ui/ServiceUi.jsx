@@ -60,7 +60,7 @@ export default function ServiceUi({
           >
             {title}
           </h3>
-          <p
+          <div
             ref={body}
             className="max-w-md translate-y-10 text-body-1 opacity-0  xl:max-w-2xl 2xl:text-3xl"
           >
@@ -73,7 +73,7 @@ export default function ServiceUi({
                   </p>
                 );
               })}
-          </p>
+          </div>
         </div>
         <div
           ref={line}
