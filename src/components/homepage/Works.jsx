@@ -77,7 +77,7 @@ export default function Works({ forwardedRef }) {
             name="Sign Up Revamp"
             type="Carrefour • Frontend Development"
             year="2024"
-            tools="Next.js • TypeScript • Redux"
+            tools="Next.js • TypeScript"
           />
         </div>
 
