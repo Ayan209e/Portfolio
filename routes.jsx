@@ -10,6 +10,7 @@ const AppRoutes = ({ sectionRefs }) => {
         <Route path="/" element={<HomePage sectionRefs={sectionRefs} />} />
         <Route path="/projects/profile-revamp" element={<Profile />} />
         <Route path="/projects/address-revamp" element={<Address />} />
+        <Route path="*" element={<HomePage sectionRefs={sectionRefs} />} />
       </Routes>
     </Router>
   );

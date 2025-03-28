@@ -10,9 +10,11 @@ export const Profile = () => {
   return (
     <section
       id="works"
-      className="nav-change overflow-hidden py-[25%] md:py-[10%]"
+      className="nav-change overflow-hidden py-[28%] md:py-[10%]"
     >
-      <Heading title="Profile Revamp" />
+      <div className="text-center">
+        <Heading title="Profile Revamp" />
+      </div>
       <div className="mb-10 mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
