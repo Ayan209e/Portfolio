@@ -16,7 +16,7 @@ export default function Experience() {
     "· Sign-Up Optimization – Streamlined registration with Next.js and TypeScript, reducing sign-up time by 30% and failures by 70%.",
   ];
 
-  const ineubytes = ["Web Developer", "Full Stack Web", "2023", "(2 mos)"];
+  const ineubytes = ["Intern", "Web Developer", "2023", "(2 mos)"];
 
   const ineubytesContents = [
     "· Developed an image search engine with React.js, Tailwind CSS, and the Pexels API for fast and accurate image retrieval.",
