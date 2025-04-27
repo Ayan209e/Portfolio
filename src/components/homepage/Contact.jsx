@@ -203,7 +203,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="/src/assets/Resume.pdf"
+                href="/Resume.pdf"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"

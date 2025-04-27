@@ -82,7 +82,7 @@ export default function NavBar({ sectionRefs }) {
               <span className="absolute bottom-0 left-0 h-[0.125em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
             </a>
             <a
-              href="/src/assets/Resume.pdf"
+              href="/Resume.pdf"
               className="group relative hidden md:inline-block"
               target="_blank"
               rel="noreferrer"
